@@ -1,6 +1,7 @@
 <template>
     <div>
         <hero></hero>
+        <task-list></task-list>
         <basic-elements></basic-elements>
         <inputs></inputs>
         <custom-controls></custom-controls>
@@ -23,6 +24,7 @@ import Carousel from "./components/Carousel";
 import Icons from "./components/Icons";
 import Examples from "./components/Examples";
 import DownloadSection from "./components/DownloadSection";
+import TaskList from "./components/Table.vue";
 
 export default {
   name: "components",
@@ -36,7 +38,8 @@ export default {
     Carousel,
     Icons,
     Examples,
-    DownloadSection
+    DownloadSection,
+    TaskList
   }
 };
 </script>
